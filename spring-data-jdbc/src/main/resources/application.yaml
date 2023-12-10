@@ -1,14 +1,14 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/repository_battle
-    username: test
-    password: test
+    url: jdbc:postgresql://localhost:5432/car_history
+    username: postgres
+    password: postgres
     driver-class-name: org.postgresql.Driver
 
   flyway:
-    url: jdbc:postgresql://localhost:5432/jooqvshiber
-    user: test
-    password: test
+    url: jdbc:postgresql://localhost:5432/car_history
+    user: postgres
+    password: postgres
     baseline-on-migrate: true
 
 logging:
