@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/repository_battle
+    username: test
+    password: test
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    url: jdbc:postgresql://localhost:5432/jooqvshiber
+    user: test
+    password: test
+    baseline-on-migrate: true
+
+logging:
+  level:
+    org.springframework: INFO
+    sql: debug
